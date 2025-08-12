@@ -24,20 +24,29 @@
   <!-- SECTION CONTACT -->
   <section class="max-w-6xl mx-auto p-8">
     <h2 class="text-3xl font-bold text-blue-900 mb-6">Contactez-nous</h2>
-    <form action="https://formspree.io/f/xyourformid" method="POST" class="bg-white shadow-lg rounded-lg p-6">
+    <form action="https://formspree.io/f/xxxxabcd" method="POST" class="bg-white shadow-lg rounded-lg p-6">
+      
+      <!-- Objet spécial -->
+      <input type="hidden" name="_subject" value="[CSA Castors - Message site web]">
+
       <label class="block mb-4">
         <span class="text-gray-700">Nom</span>
-        <input type="text" name="nom" required class="mt-1 block w-full border rounded p-2">
+        <input type="text" name="Nom" required class="mt-1 block w-full border rounded p-2">
       </label>
+
       <label class="block mb-4">
         <span class="text-gray-700">Email</span>
-        <input type="email" name="email" required class="mt-1 block w-full border rounded p-2">
+        <input type="email" name="Email" required class="mt-1 block w-full border rounded p-2">
       </label>
+
       <label class="block mb-4">
         <span class="text-gray-700">Message</span>
-        <textarea name="message" rows="4" required class="mt-1 block w-full border rounded p-2"></textarea>
+        <textarea name="Message" rows="4" required class="mt-1 block w-full border rounded p-2"></textarea>
       </label>
-      <button type="submit" class="bg-blue-900 text-white px-4 py-2 rounded hover:bg-blue-700">Envoyer</button>
+
+      <button type="submit" class="bg-blue-900 text-white px-4 py-2 rounded hover:bg-blue-700">
+        Envoyer
+      </button>
     </form>
   </section>
 
